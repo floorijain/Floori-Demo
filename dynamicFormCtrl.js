@@ -331,6 +331,7 @@ app.controller('dynamicFormController', function ($scope, $http, $window, formSe
                     })
                 }
             }
+       
             else {
                 $scope.updatedForm.push($scope.form[i]);
             }
