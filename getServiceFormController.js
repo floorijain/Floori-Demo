@@ -1,7 +1,6 @@
 app.controller('getServiceFormController', function($scope,$http,$window, formService) {
 
   $scope.tmpObj = "";
-
     $scope.getServiceForm = function() {
 
         //var tmpObj = formService.getShemaInfo();

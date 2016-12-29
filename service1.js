@@ -5,7 +5,6 @@ app.service('service1', function() {
         getData : getData,
         shared_data : {} 
     }
-
     function setData(data) {
         shared_data = data;
         console.log(shared_data);

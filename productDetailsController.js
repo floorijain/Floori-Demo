@@ -1,7 +1,6 @@
  app.controller('productDetailsController', function ($scope, $http,$window) { 
        
      $scope.url= $window.url;
-     
        $scope.name = "";
       $scope.mod="";
        $scope.company="";

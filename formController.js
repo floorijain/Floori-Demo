@@ -1,6 +1,5 @@
 app.controller('formController', function($scope,$window,$http) {
     $scope.url= $window.url2;
-    
     $scope.schema = {
         "type": "object",
         "title": "Comment",

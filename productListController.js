@@ -1,5 +1,4 @@
 app.controller('productListController', function ($scope, $http,$window, service1) {
-    
      $scope.url= $window.url;
         $scope.details="";
         $scope.name = "";

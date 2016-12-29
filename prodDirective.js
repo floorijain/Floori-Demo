@@ -1,4 +1,5 @@
 app.directive('modal', function(){  
+ 
  return {
       template: '<div class="modal fade">' + 
           '<div class="modal-dialog">' + 

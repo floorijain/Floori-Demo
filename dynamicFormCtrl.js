@@ -1,8 +1,5 @@
 app.controller('dynamicFormController', function ($scope, $http, $window, formService) {
-
-
     $scope.url = $window.url4;
-
     $scope.fieldName = "";
     $scope.fieldType = "";
     $scope.options = "";

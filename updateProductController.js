@@ -1,6 +1,5 @@
 app.controller('updateProductController', function ($scope, $http, service1,$window) {
     
-    
      $scope.url= $window.url;
         $scope.name = "";
         $scope.mod="";

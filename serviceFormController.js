@@ -1,5 +1,4 @@
 app.controller('serviceFormController', function ($scope, $http, formService) {
-    
      $scope.name = "";
       $scope.empId="";
        $scope.department="";

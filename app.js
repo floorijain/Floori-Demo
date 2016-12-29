@@ -4,8 +4,6 @@ var url3 = 'http://localhost:3000/api/employee/';
 var url4 = 'http://localhost:3000/api/schemaForm/';
 
 var app =angular.module("website", ['ui.router','schemaForm','ngSanitize']);
-
-
 app.config(function($stateProvider, $urlRouterProvider)
     {
       
